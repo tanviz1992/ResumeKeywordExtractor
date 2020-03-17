@@ -12,7 +12,7 @@ This coding exercise should be performed in Python. You are free to use the inte
 If you have any doubts, questions or suggestions — feel free to ask Hiring manager or recruiter
 
 # The task
-1. Take PDF Files from our email. Those are CV from LinkedIn
+1. Take [these PDF Files](https://drive.google.com/drive/folders/1YJ3s1Hi-bndyBXRtaUsPL6KG7Qn1N1tq?usp=sharing) — LinkedIn Profiles
 2. Design the algorhitm to identify 5 meaningful keywords for every profile (e.g. Profile 1: Software Developer, NodeJS, Hackathons, Blockchain, SAAS)
 3. Put the result into a JSON file, which will contain: PDF File name, list of Keywords
 
