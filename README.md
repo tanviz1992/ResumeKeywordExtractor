@@ -15,18 +15,18 @@ The script accepts a wide range of input arguments, so as the user can update an
 
 Usage: python ld_resume.py [ARGS] 
 **Required Arguments:**
-   **--dir </dir/to/folder/>**             Path to folder containing resumes 
-   **--result-file <output json file>**    Path to Output Json File 
+   **--dir </dir/to/folder/>**             Path to folder containing resumes <br>  
+   **--result-file <output json file>**    Path to Output Json File <br>  
               
 **Optional Arguments:**
-   **--min-df <min_df value>**             Min DF value for the CountVectorizer - default : 0.2
-   **--max-df <max_df value>**             Max DF value for the CountVectorizer - default : 0.8
-   **--stop-words <stop words>**           Custom Stop Words to include if any  - default : [] - No default stop words
-   **--num-common-words-ignore <Number>**  Number of common words to ignore     - default : 20
-   **--num-keywords <Number>**             Number of keywords to extract to JSON. default = 5 
+   **--min-df <min_df value>**             Min DF value for the CountVectorizer - default : 0.2<br>  
+   **--max-df <max_df value>**             Max DF value for the CountVectorizer - default : 0.8 <br>  
+   **--stop-words <stop words>**           Custom Stop Words to include if any  - default : [] - No default stop words <br>  
+   **--num-common-words-ignore <Number>**  Number of common words to ignore     - default : 0 <br>  
+   **--num-keywords <Number>**             Number of keywords to extract to JSON. default = 5 <br>  
 
-   **--help-print**                        Prints the usage section of the script
+   **--help-print**                        Prints the usage section of the script <br>  
             
-**Example Usage:** 
-python ld_resume.py --dir /path/to/folder_containing_resumes/ --result-file /path/output/result.json
+**Example Usage:** <br>
+python ld_resume.py --dir /path/to/folder_containing_resumes/ --result-file /path/output/result.json  
 
