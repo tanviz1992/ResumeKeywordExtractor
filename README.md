@@ -8,7 +8,7 @@ The script accepts a wide range of input arguments, so as the user can update an
 * **README.md** - Readme markdown file
 * **ld_resume.py** - Python File to extract keywords from a folder containing resumes
 * **ld_resume_nb.ipynb** - Notebook document file with the ld_resume.py python script loaded and sample run with output
-* **ResumeKeywordExtractor.pdf** - Project Report containing description, Quickstart, Steps and 
+* **ResumeKeywordExtractor.pdf** - Project Report containing description, quickstart guide and analytics process.
 * **result.json** - Sample JSON output being created by the program
 
 ### **Usage**
