@@ -13,12 +13,12 @@ The script accepts a wide range of input arguments, so as the user can update an
 
 ### **Usage**
 
-Usage: python ld_resume.py [ARGS] 
-**Required Arguments:**
+Usage: **python ld_resume.py [ARGS]**  
+**Required Arguments:**  
    **--dir </dir/to/folder/>**             Path to folder containing resumes  
    **--result-file <output json file>**    Path to Output Json File   
               
-**Optional Arguments:**
+**Optional Arguments:**  
    **--min-df <min_df value>**             Min DF value for the CountVectorizer - default : 0.2  
    **--max-df <max_df value>**             Max DF value for the CountVectorizer - default : 0.8  
    **--stop-words <stop words>**           Custom Stop Words to include if any  - default : [] - No default stop words  
