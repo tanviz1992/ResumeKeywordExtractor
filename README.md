@@ -1,25 +1,32 @@
-# Data-Science-Coding-Assessment
-Take Home Coding Exercise for a Data Scientist Intern Position in Liquidity Digital
+## **Resume Keyword Extractor**
 
-## Instructions
-This coding exercise should be performed in Python. You are free to use the internet and any third party libraries. Please save your work in a Jupyter notebook.
+The ld_resume.py script extracts the top 5 keywords from a folder containing resumes.
+The script accepts a wide range of input arguments, so as the user can update and train the model to get the desired results.
 
-1. Fork this repository
-2. Solve the challenge within 7 days
-3. Send a link to a repo and live app
+### The repository contains the below files :
 
-You can use Jupyter or any other frameworks. Just make sure that your repo could be rebuild correctly.
+* **README.md** - Readme markdown file
+* **ld_resume.py** - Python File to extract keywords from a folder containing resumes
+* **ld_resume_nb.ipynb** - Notebook document file with the ld_resume.py python script loaded and sample run with output
+* **ResumeKeywordExtractor.pdf** - Project Report containing description, Quickstart, Steps and 
+* **result.json** - Sample JSON output being created by the program
 
-## Ask questions
-If you have any doubts, questions or suggestions — feel free to ask Hiring manager or recruiter
+### **Usage**
 
-# The task
-1. Take [these PDF Files](https://drive.google.com/drive/folders/1YJ3s1Hi-bndyBXRtaUsPL6KG7Qn1N1tq?usp=sharing) — LinkedIn Profiles
-2. Design the algorhitm to identify 5 meaningful keywords for every profile
-3. Put the result into a JSON file Results.json, which will contain: PDF File name, list of Keywords
+Usage: python ld_resume.py [ARGS] 
+**Required Arguments:**
+   **--dir </dir/to/folder/>**             Path to folder containing resumes 
+   **--result-file <output json file>**    Path to Output Json File 
+              
+**Optional Arguments:**
+   **--min-df <min_df value>**             Min DF value for the CountVectorizer - default : 0.2
+   **--max-df <max_df value>**             Max DF value for the CountVectorizer - default : 0.8
+   **--stop-words <stop words>**           Custom Stop Words to include if any  - default : [] - No default stop words
+   **--num-common-words-ignore <Number>**  Number of common words to ignore     - default : 20
+   **--num-keywords <Number>**             Number of keywords to extract to JSON. default = 5 
 
-## We pay attention to
-1. Result
-2. Repository structure
-3. Documentation and comments
-4. Code readibility
+   **--help-print**                        Prints the usage section of the script
+            
+**Example Usage:** 
+python ld_resume.py --dir /path/to/folder_containing_resumes/ --result-file /path/output/result.json
+
